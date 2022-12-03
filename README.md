@@ -1,5 +1,5 @@
 # Kelompok 3 A1 Kecerdasan Buatan
--
+- 2009106012 - Fathia Nuq Qamarina
 -
 - 2009106029 - Muhamad Rizky Nilzamyahya
 
@@ -10,8 +10,8 @@ Setelah memasukkan data berupa banyak model gambar jari, mulai dari 1 sampai 5 s
 
 ## Dataset
 
-Kami mengambil salah satu dataset yang kami temukan di internet
-Kaggle Dataset URL:
+Kami mengambil salah satu dataset yang kami temukan di internet.
+Kaggle Dataset URL: https://www.kaggle.com/datasets/koryakinp/fingers
 
 ## Classification Workflow
 ### Classification Model
