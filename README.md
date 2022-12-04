@@ -1,6 +1,6 @@
 # Kelompok 3 A1 Kecerdasan Buatan
 - 2009106012 - Fathia Nuq Qamarina
-- 2009106020 = Rausyanfikr Adi Karmayoga
+- 2009106020 - Rausyanfikr Adi Karmayoga
 - 2009106029 - Muhamad Rizky Nilzamyahya
 
 ## Mengklasifikasi Jumlah Jari Pada Manusia
