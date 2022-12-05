@@ -1,26 +1,77 @@
-# Kelompok 3 A1 Kecerdasan Buatan
-- 2009106012 - Fathia Nuq Qamarina
-- 2009106020 - Rausyanfikr Adi Karmayoga
-- 2009106029 - Muhamad Rizky Nilzamyahya
+<h1>Kelompok 3 A1 Kecerdasan Buatan</h1>
+<ul>
+  <li>2009106012 - Fathia Nuq Qamarina</li>
+	<li>2009106020 - Rausyanfikr Adi Karmayoga</li>
+	<li>2009106029 - Muhamad Rizky Nilzamyahya</li>
+</ul>
 
-## Mengklasifikasi Jumlah Jari Pada Manusia
+<h2>Jobs Desk : </h2>
+<ul>
+	<li>Rausyanfikr Adi Karmayoga : Ketua Kelompok, Data Augmentasi(preprocessing)</li>
+  <li>Fathia Nuq Qamarina : Data Collecting, Data Visualisasi</li>
+	<li>Muhamad Rizky Nilzamyahya : Data Modelling</li>
+</ul>
+
+<h2>Mengklasifikasi Jumlah Angka Pada Jari Tangan Kanan dan Kiri</h2>
 
 Tujuan Akhir:
-Setelah memasukkan data berupa banyak model gambar jari, mulai dari 1 sampai 5 sebelah kiri dan 1 sampai 5 jari kanan, mesin akan mempelajari foto foto tersebut sehingga dapat membedakan mana jari yang berangka 1 maupun berjumlah lainnya, apakah itu menggunakan tangan kiri ataupun kanan
+<br>
+<p>Setelah memasukkan data berupa banyak model gambar jari, mulai dari 1 sampai 5 sebelah kiri dan 1 sampai 5 jari kanan, mesin akan mempelajari foto foto tersebut sehingga dapat membedakan mana jari yang berangka 1 maupun berjumlah lainnya, apakah itu menggunakan tangan kiri ataupun kanan</p>
+<p>Training Data menggunakan Data Train dan Data Validation</p>
+<p>Melakukan Prediksi menggunakan Data Test</p>
 
-## Dataset
+<h2>Dataset</h2>
 
-Kami mengambil salah satu dataset yang kami temukan di internet.
-Kaggle Dataset URL: https://www.kaggle.com/datasets/koryakinp/fingers
+<p>Kami mengambil salah satu dataset yang kami temukan di internet.
+Kaggle Dataset URL: https://www.kaggle.com/datasets/koryakinp/fingers</p>
+<p>BY : PAVEL KORYAKIN</p>
+<br>
+	<p>Dataset terdiri dari 21600 gambar jari-jari tangan kanan dan kiri.</p>
+	<p>Semua Gambar berukurang 128 x 128 pixels</p>
+	<ul>
+		<li>Gambar Data Train Terdiri dari 18000</li>
+		<li>Gambar Data Test Terdiri dari 3600</li>
+		<li>Gambar Data Validation diambuil dari Data Train dan Test<br>masing-masing sebayak 1800 gambar</li>
+	</ul>
+	<p>Jumlah Dataset menjadi :</p>
+	<ul>
+		<li>Gambar Data Train : 16200</li>
+		<li>Gambar Data Test : 1800</li>
+		<li>Gambar Data Validation : 3600</li>
+		<p>Dengan Targer Ukuran 50x50 pixels</p>
+	</ul>
 
-## Classification Workflow
-### Classification Model
+<h2>Labels</h2>
 
-### Pedigree Model Workflow
+<p>Label data diambil dari 2 karakter akhir nama file</p>
+<ul>
+		<li>L/R : menunjukkan tangan kanan atau kiri</li>
+		<li>0,1,2,3,4,5 : menunjukkan angka </li>
+	</ul>
 
-## Tahapan-tahapan Pengerjaan
+<h2>Tahap - Tahap Pengerjaan :</h2>
+<ol>
+	<li><b>Data Collecting</b>
+				<p>Membuat Folder Data Validation, dari Data Train & Test</p>
+				<p>Mengetahui Jumlah data perfolder, label,dan dimensinya</p>
+				<p>Visualisasi 1 Gambar setiap folder : train,test,val</p>
+				<p>Visualisasi Data Sampel dari Data Train</p>
+	</li>
+	<li><b>Data Preprocessing - Data Augmentasi</b>
+				<p>Membuat Data Gambar Augmentasi dan Visualisasi Data Augmentasi</p>
+				<p>Membuat Normalisasi dan Encoding dari Folder Data Test</p>
+	</li>
+	<li><b>Data Modelling</b>
+				<p>Membuat Model Sequential dan Visualisasi : Accuracy & Loss Model</p>
+				<p>Evaluasi Model dan Save Model</p>
+	</li>
+	<li><b>Prediksi Gambar Menggunakan Model</b>
+				<p>Membuat Model Prediksi dengan Folder Data Test</p>
+				<p>Visualisasi Hasil Prediksi dengan menampilkan label aktual dan label prediksi</p>
+	</li>
+	
+</ol>
+<br>
 
-### Stage 1
-### Stage 2
-...
 
+![dataset-cover](https://user-images.githubusercontent.com/74334625/205540490-c7a620d3-0e3b-4f01-ae7c-4489e2c24305.jpg)
