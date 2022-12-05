@@ -31,7 +31,7 @@ Kaggle Dataset URL: https://www.kaggle.com/datasets/koryakinp/fingers</p>
 	<ul>
 		<li>Gambar Data Train Terdiri dari 18000</li>
 		<li>Gambar Data Test Terdiri dari 3600</li>
-		<li>Gambar Data Validation diambuil dari Data Train dan Test</li>
+		<li>Gambar Data Validation diambil dari Data Train dan Test</li>
 	</ul>
 	<p>Jumlah Dataset menjadi :</p>
 	<ul>
