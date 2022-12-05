@@ -5,6 +5,17 @@
 	<li>2009106029 - Muhamad Rizky Nilzamyahya</li>
 </ul>
 
+**Table of Contents**
+- [Jobs Desk](#jobs-desk--)
+- [Mengklasifikasi Jumlah Angka Pada Jari Tangan Kanan dan Kiri](#mengklasifikasi-jumlah-angka-pada-jari-tangan-kanan-dan-kiri)
+- [Dataset](#dataset)
+- [Labels](#labels)
+- [Tahap - Tahap Pengerjaan](#tahap---tahap-pengerjaan-)
+  - [Data Collecting](#1-data-collecting)
+  - [Data Preprocessing - Data Augmentasi](#2-data-preprocessing---data-augmentasi)
+  - [Data Modelling](#3-data-modelling)
+  - [Prediksi Gambar Menggunakan Model](#4-prediksi-gambar-menggunakan-model)
+
 <h2>Jobs Desk : </h2>
 <ul>
 	<li>Rausyanfikr Adi Karmayoga : Ketua Kelompok, Data Augmentasi(preprocessing)</li>
@@ -52,27 +63,24 @@ Kaggle Dataset URL: https://www.kaggle.com/datasets/koryakinp/fingers</p>
 	</ul>
 
 <h2>Tahap - Tahap Pengerjaan :</h2>
-<ol>
-	<li><b>Data Collecting</b>
-				<p>Membuat Folder Data Validation, dari Data Train & Test</p>
-				<p>Mengetahui Jumlah data perfolder, label,dan dimensinya</p>
-				<p>Visualisasi 1 Gambar setiap folder : train,test,val</p>
-				<p>Visualisasi Data Sampel dari Data Train</p>
-	</li>
-	<li><b>Data Preprocessing - Data Augmentasi</b>
-				<p>Membuat Data Gambar Augmentasi dan Visualisasi Data Augmentasi</p>
-				<p>Membuat Normalisasi dan Encoding dari Folder Data Test</p>
-	</li>
-	<li><b>Data Modelling</b>
-				<p>Membuat Model Sequential dan Visualisasi : Accuracy & Loss Model</p>
-				<p>Evaluasi Model dan Save Model</p>
-	</li>
-	<li><b>Prediksi Gambar Menggunakan Model</b>
-				<p>Membuat Model Prediksi dengan Folder Data Test</p>
-				<p>Visualisasi Hasil Prediksi dengan menampilkan label aktual dan label prediksi</p>
-	</li>
-	
-</ol>
+
+### 1. Data Collecting
+<p> Membuat Folder Data Validation, dari Data Train & Test</p>
+<p> Mengetahui Jumlah data perfolder, label,dan dimensinya</p>
+<p> Visualisasi 1 Gambar setiap folder : train,test,val</p>
+<p> Visualisasi Data Sampel dari Data Train</p>
+
+### 2. Data Preprocessing - Data Augmentasi
+<p>Membuat Data Gambar Augmentasi dan Visualisasi Data Augmentasi</p>
+<p>Membuat Normalisasi dan Encoding dari Folder Data Test</p>
+
+### 3. Data Modelling
+<p>Membuat Model Sequential dan Visualisasi : Accuracy & Loss Model</p>
+<p>Evaluasi Model dan Save Model</p>
+
+### 4. Prediksi Gambar Menggunakan Model
+<p>Membuat Model Prediksi dengan Folder Data Test</p>
+<p>Visualisasi Hasil Prediksi dengan menampilkan label aktual dan label prediksi</p>
 <br>
 
 
