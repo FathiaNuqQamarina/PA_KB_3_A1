@@ -38,7 +38,7 @@ Kaggle Dataset URL: https://www.kaggle.com/datasets/koryakinp/fingers</p>
 		<li>Gambar Data Train : 16200</li>
 		<li>Gambar Data Test : 1800</li>
 		<li>Gambar Data Validation : 3600</li>
-		<p>Dengan Targer Ukuran 50x50 pixels</p>
+		<p>Dengan Target Ukuran 50x50 pixels</p>
 	</ul>
 
 <h2>Labels</h2>
