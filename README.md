@@ -16,7 +16,7 @@
 
 Tujuan Akhir:
 <br>
-<p>Setelah memasukkan data berupa banyak model gambar jari, mulai dari 1 sampai 5 sebelah kiri dan 1 sampai 5 jari kanan, mesin akan mempelajari foto foto tersebut sehingga dapat membedakan mana jari yang berangka 1 maupun berjumlah lainnya, apakah itu menggunakan tangan kiri ataupun kanan</p>
+<p>Setelah memasukkan data berupa banyak model gambar jari, mulai dari 1 sampai 5 sebelah kiri dan 0 sampai 5 jari kanan, mesin akan mempelajari foto foto tersebut sehingga dapat membedakan mana jari yang berangka 0 maupun berjumlah lainnya, apakah itu menggunakan tangan kiri ataupun kanan</p>
 <p>Training Data menggunakan Data Train dan Data Validation</p>
 <p>Melakukan Prediksi menggunakan Data Test</p>
 
